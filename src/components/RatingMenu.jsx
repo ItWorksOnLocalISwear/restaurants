@@ -6,7 +6,6 @@ const RatingMenu = ({ currentRefinement, refine }) => (
     {new Array(4).fill(null).map((_, index) => (
       <li key={index}>
         <a
-          href="#"
           style={{
             color: currentRefinement.min === 5 - index ? "gold" : "",
             textDecoration: "none",
